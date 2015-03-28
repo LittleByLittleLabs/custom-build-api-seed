@@ -3,3 +3,5 @@ venv
 
 #pycharm auto generated files
 .idea
+
+students/data.sqlite
