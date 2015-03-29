@@ -30,16 +30,16 @@ source venv/bin/activate
 # start the server, ctrl-c if you want to stop server
 python requests/app/api.py
 
-# in separate console window, retrieve all students
+# Test 1: in separate console window, retrieve all students
 http GET http://localhost:5000/students/
 
-# in separate console window, create a new student
+# Test 2: in separate console window, create a new student
 http POST  http://localhost:5000/students/ name=Armen
 
-# in separate console window, retrieve a specific user
+# Test 3: in separate console window, retrieve a specific user
 http GET http://localhost:5000/students/1
 
-# in separate console window, update an existing user
+# Test 4: in separate console window, update an existing user
 http PUT http://localhost:5000/students/1 name="Changed Name"
 
 # stop virtualenv environment when you're finished
