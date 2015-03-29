@@ -39,6 +39,9 @@ http POST  http://localhost:5000/students/ name=Armen
 # in separate console window, retrieve a specific user
 http GET http://localhost:5000/students/1
 
+# in separate console window, update an existing user
+http PUT http://localhost:5000/students/1 name="Changed Name"
+
 # stop virtualenv environment when you're finished
 deactivate
 ```
