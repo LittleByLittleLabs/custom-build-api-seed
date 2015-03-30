@@ -45,3 +45,8 @@ http PUT http://localhost:5000/students/1 name="Changed Name"
 # stop virtualenv environment when you're finished
 deactivate
 ```
+
+Challenge:
+1. Complete the `For subsequent runs` section above
+2. Write a script which will test the 4 endpoints above (GET, POST, GET, PUT) using curl.
+3. Write a script which will populate 30 records into your database. 
