@@ -47,6 +47,8 @@ deactivate
 ```
 
 Challenge:
+```
 1. Complete the `For subsequent runs` section above
 2. Write a script which will test the 4 endpoints above (GET, POST, GET, PUT) using curl.
 3. Write a script which will populate 30 records into your database. 
+```
