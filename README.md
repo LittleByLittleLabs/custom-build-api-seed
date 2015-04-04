@@ -81,3 +81,5 @@ Most Commented
 Most/Least posts by author
 
 Top Site References
+
+**Don't forget to push your github branch on Mondays.
