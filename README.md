@@ -46,9 +46,38 @@ http PUT http://localhost:5000/students/1 name="Changed Name"
 deactivate
 ```
 
-Challenge:
+Challenge (due April 5th):
 ```
 1. Complete the `For subsequent runs` section above
 2. Write a script which will test the 4 endpoints above (GET, POST, GET, PUT) using curl.
 3. Write a script which will populate 30 records into your database. 
 ```
+
+
+Challenge (due April 12th)
+
+1. Find a data set
+
+2. Create a SQL schema 
+
+3. Write a script to extract and transform the data into an input file
+
+3. Implement REST POST endpoint to populate data into PostGreSQL
+
+4. Write a script to load data into DB using curl from previous step
+
+
+
+Some interesting product feature ideas may be:
+
+Best Posts
+
+Worst Posts
+
+Most Controversial
+
+Most Commented
+
+Most/Least posts by author
+
+Top Site References
