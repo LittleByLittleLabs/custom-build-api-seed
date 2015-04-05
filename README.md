@@ -62,7 +62,7 @@ Challenge (due April 12th)
 
 3. Write a script to extract and transform the data into an input file
 
-3. Implement REST POST endpoint to populate data into PostGreSQL
+3. Implement REST POST endpoint to populate data into sqlite
 
 4. Write a script to load data into DB using curl from previous step
 
