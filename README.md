@@ -83,3 +83,20 @@ Most/Least posts by author
 Top Site References
 
 **Don't forget to push your github branch on Mondays.
+
+
+Instructions for Git Workflow
+
+1. Git pull or Git clone repo which you plan to make changes to 
+
+2. Create a branch using git checkout -b branchname  
+
+3. Make the changes
+
+4. Commit the changes locally
+
+5. Push changes to remote repo
+
+6. Create Pull Request and send to reviewers
+
+7. Address reviewer comments and merge Pull Request to master 
