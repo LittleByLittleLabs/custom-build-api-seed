@@ -109,4 +109,4 @@ We discussed in class what and how to use Apache Bench (https://www.digitalocean
 
 Your challenge for this week is to create a report in markdown format callled `load_test.md`. This report should contain a few benchmarks/scenarios which you can perform on your app. If you haven't gotten previous weeks challenge to work, then you can simply clone and run the seed github project for students as you did 3 weeks ago. 
 
-Please provide an explanation for each load test scenario and your justification for why or how you came up with the different values for `-n` & `-c` flags.
+Please provide an explanation for each load test scenario and your justification for why or how you came up with the different values for `-n` & `-c` flags.  You can also try using `ngrok` after you document your tests for `localhost` and explain differences.
