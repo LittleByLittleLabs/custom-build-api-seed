@@ -1,5 +1,6 @@
 import os
-from flask import Flask, url_for, jsonify, request
+from flask import Flask, url_for, jsonify, request, render_template
+
 from flask.ext.sqlalchemy import SQLAlchemy
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -62,6 +63,11 @@ def edit_student(id):
     db.session.commit()
     return jsonify({})
 
+@app.route('/')
+def index():
+    highlight = {'min': 1, 'max': 2}
+    students = Student.query.all()
+    return render_template('index.html', students=students, highlight=highlight)
 
 if __name__ == '__main__':
     db.create_all()

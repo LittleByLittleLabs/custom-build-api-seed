@@ -1,0 +1,22 @@
+<h1>Students</h1>
+<hr>
+<table>
+    <tr>
+        <th>Id</th>
+        <th></th>
+        <th>Name</th>
+    </tr>
+    {% for student in students %}
+    <tr>
+        <td>
+            {% set hl = student.id <= highlight['min'] %}
+            {% if hl %}<b>{% endif %}
+            {{ student.id }}
+            {% if hl %}</b>{% endif %}
+        </td>
+        <td></td>
+        <td>{{ student.name }}</td>
+        <td></td>
+    </tr>
+    {% endfor %}
+</table>
