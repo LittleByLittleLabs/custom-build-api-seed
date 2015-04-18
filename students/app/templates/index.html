@@ -1,6 +1,18 @@
-<h1>Students</h1>
-<hr>
-<table>
+{% extends 'bootstrap/base.html' %}
+{% block title %}List of Students{% endblock %}
+
+{% block navbar %}
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">List of Students</a>
+        </div>
+    </nav>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Student Info</h1>
+        <table class="table table-hover">
     <tr>
         <th>Id</th>
         <th></th>
@@ -19,4 +31,7 @@
         <td></td>
     </tr>
     {% endfor %}
-</table>
+        </table>
+    </div>
+{% endblock %}
+
