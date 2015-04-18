@@ -5,3 +5,6 @@ venv
 .idea
 
 students/data.sqlite
+
+# vagrant
+.vagrant
