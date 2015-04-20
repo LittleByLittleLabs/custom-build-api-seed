@@ -110,3 +110,18 @@ We discussed in class what and how to use Apache Bench (https://www.digitalocean
 Your challenge for this week is to create a report in markdown format callled `load_test.md`. This report should contain a few benchmarks/scenarios which you can perform on your app. If you haven't gotten previous weeks challenge to work, then you can simply clone and run the seed github project for students as you did 3 weeks ago. 
 
 Please provide an explanation for each load test scenario and your justification for why or how you came up with the different values for `-n` & `-c` flags.  You can also try using `ngrok` after you document your tests for `localhost` and explain differences.
+
+
+Challenge Due (April 25th)
+
+1. Implement a 404.html error page 
+```
+# todo: implement this template
+@app.errorhandler(404)
+def not_found(e):
+    return render_template('404.html')
+```
+
+2. Implement a `index.html` for your project and make it look pretty.  Use `app/index.html` as an example.
+
+3. Get `vagrant up` working for your project 
