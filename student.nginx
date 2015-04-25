@@ -13,9 +13,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
     location /static {
-        alias /home/vagrant/student/static;
+        alias /home/vagrant/students/static;
     }
     location /favicon.ico {
-        alias /home/vagrant/student/static/favicon.ico;
+        alias /home/vagrant/students/static/favicon.ico;
     }
 }
